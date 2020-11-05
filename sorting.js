@@ -51,6 +51,8 @@ function merge(left, right, array) {
     }
 
     for (let i = leftIndex; i < left.length; i++) {
+        // console.log(array[outputIndex])
+        // console.log('this is left[i]', left[i])
         array[outputIndex++] = left[i];
     }
 
@@ -149,7 +151,7 @@ function partIt(arr, s, e) {
 
 // console.log(qSort(newList))
 
-// console.log(mergeSort(newList))
+console.log(mergeSort(newList))
 
 
 // function sortBinary(arr) {
